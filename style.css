@@ -1,0 +1,157 @@
+@media only screen and (max-width: 720px) {
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100&display=swap');
+
+  * {
+    background: #191765;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    gap: 196.33px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navname {
+    margin: 0 0 0 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .firstpage {
+    width: 354px;
+    margin: 139px 24px 12px 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #7d73fc;
+    text-align: center;
+    letter-spacing: 0.37px;
+  }
+
+  .jobtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    color: #edecff;
+  }
+
+  .leftcircle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: -106px;
+    top: 0;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .rightcircle {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 339px;
+    top: 495px;
+    background: #edecff;
+    filter: blur(50px);
+  }
+
+  .introbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .introparagraph {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #c8c8d4;
+    margin: 40px 0 33px 0;
+  }
+
+  .horizontalline {
+    height: 0;
+    width: 100%;
+    border: 1px solid #646369;
+    top: calc(50% - 0px / 2 + 0.5px);
+  }
+
+  .skillset {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .skillsetone,
+  .skillsettwo,
+  .skillsetthree {
+    width: 50%;
+  }
+
+  li {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #f5f5ff;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #9490ff;
+    margin-bottom: 24.5px;
+  }
+
+  .secondhorizontalline {
+    height: 0;
+    width: 100%;
+    border: 1px solid #646369;
+    margin-top: 21px;
+    top: calc(50% - 0px / 2 + 0.5px);
+  }
+
+  .image {
+    margin-top: 48px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+}
