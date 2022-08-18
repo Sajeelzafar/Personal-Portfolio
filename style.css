@@ -9,7 +9,6 @@
 
   .navbar {
     display: flex;
-    margin-top: 60px;
     position: fixed;
     top: 0;
     gap: 196.33px;
