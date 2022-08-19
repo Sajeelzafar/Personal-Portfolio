@@ -199,8 +199,12 @@
   }
 
   .languagesFlexContainer {
+    padding-left: 10px;
     display: flex;
-    gap: 20px;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: center;
   }
 
   .languages {
@@ -215,6 +219,7 @@
     order: 0;
     flex-grow: 0;
     padding-right: 20px;
+    
   }
 
   .languagestwo {
