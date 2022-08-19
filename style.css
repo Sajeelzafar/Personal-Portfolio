@@ -28,7 +28,7 @@
   }
 
   .firstpage {
-    width: 354px;
+    width: 375px;
     margin: 139px 24px 12px 24px;
     display: flex;
     justify-content: center;
@@ -147,7 +147,7 @@
   }
 
   .workHeadingMain {
-    width: 354px;
+    width: 375px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -158,7 +158,7 @@
   }
 
   .workGridContainer {
-    width: 354px;
+    width: 375px;
     margin: 40px 24px 0 24px;
     display: grid;
     grid-template-columns: auto;
@@ -230,12 +230,12 @@
     flex-grow: 0;
   }
 
-  .sidebar {
+  .leftsidebar {
     position: absolute;
     width: 39.61px;
     height: 482.57px;
-    left: -112.04px;
-    top: 1624.71px;
+    left: 52.04px;
+    top: 1524.71px;
     background: #edecff;
     filter: blur(50px);
     transform: rotate(-36.38deg);
@@ -267,8 +267,8 @@
     position: absolute;
     width: 70.28px;
     height: 261.6px;
-    left: 300px;
-    top: 2437.23px;
+    left: 320px;
+    top: 2325.23px;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -279,7 +279,7 @@
     width: 308px;
     height: 155px;
     left: -93px;
-    top: 3274px;
+    top: 3174px;
     background: rgba(237, 236, 255, 0.3);
     filter: blur(50px);
   }
@@ -289,7 +289,7 @@
     width: 101.29px;
     height: 350.04px;
     left: 258.22px;
-    top: 3900px;
+    top: 3800px;
     background: #edecff;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
