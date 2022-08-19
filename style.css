@@ -139,18 +139,131 @@
     margin-bottom: 24.5px;
   }
 
-  .secondhorizontalline {
-    height: 0;
-    width: 100%;
-    border: 1px solid #646369;
-    margin-top: 21px;
-    top: calc(50% - 0px / 2 + 0.5px);
-  }
-
   .image {
     margin-top: 48px;
     justify-content: center;
     display: flex;
     width: 100%;
   }
+
+  .workHeadingMain {
+    width: 354px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #9490FF;
+  margin: 80px 24px 33px 24px;
+  }
+
+  .workGridContainer {
+    width: 354px;
+    margin: 40px 24px 0 24px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .secondpage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .workimage {
+    margin: 80px 0 24px 0;
+  }
+
+  .workheading {
+  height: 105px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  display: flex;
+  color: #FFFFFF;
+  }
+
+  .worktext {
+  height: 204px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #DCDCE8;
+  
+  }
+
+  .languagesFlexContainer {
+    display: flex;
+    gap: 20px;
+  }
+
+  .languages {
+    border-right: 2px solid #555555;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-right: 20px;
+    }
+
+  .languagestwo {
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+  .sidebar {
+    position: absolute;
+    width: 39.61px;
+    height: 482.57px;
+    left: -112.04px;
+    top: 1624.71px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: rotate(-36.38deg);
+    }
+
+  .projectButton {
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 89px;
+    height: 48px;
+    background: #7D73FC;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #EDECFF;
+    }
+
 }
