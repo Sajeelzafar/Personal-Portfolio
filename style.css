@@ -298,4 +298,23 @@
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
+
+.footer-form {
+  display: flex;
 }
+
+.footer-heading {
+
+}
+
+.contact-heading {
+
+}
+.contact-details {
+
+}
+
+.footer-input {
+  
+}
+
