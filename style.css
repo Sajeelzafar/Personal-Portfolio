@@ -7,6 +7,7 @@
     padding: 0;
   }
 
+
   .navbar {
     display: flex;
     position: fixed;
@@ -95,13 +96,6 @@
     margin: 40px 0 33px 0;
   }
 
-  .horizontalline {
-    height: 0;
-    width: 100%;
-    border: 1px solid #646369;
-    top: calc(50% - 0px / 2 + 0.5px);
-  }
-
   .skillset {
     display: flex;
     width: 100%;
@@ -139,11 +133,23 @@
     margin-bottom: 24.5px;
   }
 
-  .image {
-    margin-top: 48px;
-    justify-content: center;
-    display: flex;
+  .horizontalline {
+    height: 0;
     width: 100%;
+    border: 1px solid #646369;
+    top: calc(50% - 0px / 2 + 0.5px);
+  }
+
+  .social-icons {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 58px;
+  }
+
+  .work-icon {
+    text-align: center;
   }
 
   .workHeadingMain {
@@ -299,22 +305,100 @@
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
-.footer-form {
+ .footer-form {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 120px;
   display: flex;
-}
-
-.footer-heading {
-
-}
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+} 
 
 .contact-heading {
-
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #9390FF;
 }
+
 .contact-details {
-
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #f5f5ff;
 }
 
-.footer-input {
-  
+.item1,
+.item2 {
+  left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #fff;
+min-width: 300px;
+height: 48px;
+margin-bottom: 0px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+padding-left: 14px;
 }
 
+.item3 {
+  min-width: 300px;
+  height: 148px;
+  left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #fff;
+padding-top: 12px;
+padding-left: 12px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+}
+
+.footerButton {
+    margin-top: 40px;
+    padding: 12px;
+    gap: 10px;
+    background: #7d73fc;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #edecff;
+}
+
+.footer-email {
+  position: relative;
+  top: -20px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+text-decoration: none;
+padding-bottom: 20px;
+}
+
+}
