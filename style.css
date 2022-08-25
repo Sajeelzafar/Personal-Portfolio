@@ -495,6 +495,16 @@
     justify-content: center;
   }
 
+  .leftcircle {
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 69px;
+    top: 237px;
+    background: #EDECFF;
+    filter: blur(50px);
+  }
+
   .introbox {
     width: 28%;
     margin-top: 88px;
@@ -509,6 +519,16 @@
     line-height: 32px;
     text-align: center;
     color: #B3BAC5;
+  }
+
+  .rightcircle {
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    left: 1143px;
+    top: 546px;
+    background: #EDECFF;
+    filter: blur(50px);
   }
 
   .skillset {
@@ -606,7 +626,6 @@
     direction: rtl;
   }
 
-
   .workimage {
     grid-row-start: 1;
     grid-row-end: 6;
@@ -641,12 +660,34 @@
     color: #DFE1E6;
   }
 
+  .leftsidebar {
+    position: absolute;
+    width: 57.53px;
+    height: 700.92px;
+    left: -60px;
+    top: 1359.12px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: rotate(-36.38deg);
+  }
+
   .languagesFlexContainer {
     padding-left: 10px;
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
     align-content: center;
+  }
+
+  .rightsidebar {
+    position: absolute;
+    width: 108px;
+    height: 402px;
+    left: 1350.28px;
+    top: 2400.74px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
 
   .languagesFlexContainerReverse {
@@ -701,6 +742,27 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #edecff;
+  }
+
+  .thirdparagraph {
+    position: absolute;
+    width: 308px;
+    height: 155px;
+    left: -41px;
+    top: 2848px;
+    background: #EDECFF;
+    filter: blur(50px);
+  }
+
+  .fourthparagraph {
+    position: absolute;
+    width: 246.19px;
+    height: 916.38px;
+    left: 1090.3px;
+    top: 2800px;
+    background: #EDECFF;
+    filter: blur(50px);
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
   .footer-form {
@@ -792,6 +854,8 @@
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
