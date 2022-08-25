@@ -8,70 +8,90 @@
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
+    <nav class="navbar">
+        <div class="navbox">
             <p class="navname">Sajeel Zafar</p>
-            <img src="menuicon.png" alt="menu icon">
+            <div class="navdescription">
+                <ul class="navblock">
+                    <li class="nav-left">Sajeel Zafar</li>
+                    <li class="nav-right"><a href="#"><img src="Navbar_Icon.svg" alt="Email symbol"></a></li>
+                    <li class="nav-right">Contact</li>
+                    <li class="nav-right">About</li>
+                    <li class="nav-right">Portfolio</li>
+                </ul>
+            </div>
+            <img class="navicon" src="menuicon.png" alt="menu icon">
         </div>
     </nav>
     <main>
 
     <div class="firstpage">
-        <h1 class="name">Sajeel Zafar</h1>
-        <h2 class="jobtitle">Full Stack Developer</h2>
+        <div class="titleName">
+            <h1 class="name">Sajeel Zafar</h1>
+            <h2 class="jobtitle">Full Stack Developer</h2>
+        </div>
         <div class="leftcircle">
 
         </div>
         <div class="introbox">
             <p class="introparagraph">
-                I offer frontend and backend developing services alongwith expert code reviewing.
-                Feel free to look into projects and contact me if you need assistance.
+                I can help you build a product, feature 
+                or website Look through some of my
+                work and experience! If you like what
+                you see and have a project you need
+                coded, don’t hestiate to contact me.
             </p>
             <div class="horizontalline">
             
             </div>
-        </div>
-        <div class="rightcircle">
-            
-        </div>
-
-        <div class="skillset">
-            <div class="skillsetone">
-                <h3>Language</h3>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Ruby</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
+            <div class="rightcircle">
+                
             </div>
 
-            <div class="skillsettwo">
-                <h3>Frameworks</h3>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Ruby On Rails</li>
-                    <li>RSPec</li>
-                    <li>CapyBara</li>
-                    <li>Selenium</li>
-                </ul>
+            <div class="skillset">
+                <div class="skillsetone">
+                    <h3>Language</h3>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skillsettwo">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Ruby On Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+                
+                <div class="skillsetthree">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Codekit</li>
+                        <li>GitHub</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="skillsetthree">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Codekit</li>
-                    <li>GitHub</li>
-                    <li>Codepen</li>
-                    <li>Gitlab</li>
-                    <li>Terminal</li>
-                </ul>
+        
+            <div class="horizontalline">
+                
             </div>
         </div>
-        <div class="horizontalline">
-            
-        </div>
+
         <div class="social-media">
+            <div class="work-icon-one">
+                <a href="#"><img src=Work_tag.svg alt="Work Tag"></a>
+        
+            </div>
             <ul class="social-icons">
                 <li class="social-media-icons"><a href="#"><img src="github.svg" alt="Github logo"></a></li>
                 <li class="social-media-icons"><a href="#"><img src="Linkedin-icon.svg" alt="LinkedIn logo"></a></li>
@@ -87,15 +107,18 @@
     </div>
 </main>
 
-    <h1 class="workHeadingMain">MY RECENT<br> WORK</h1>
+    <h1 class="workHeadingMain">MY RECENT WORK</h1>
+    <div class="horizontallinedesktop">
+
+    </div> 
     
     <section class="workGridContainer">
         <div class="secondpage">
-            <div class="horizontalline">
+            <div class="horizontallinemobile">
 
             </div>        
             <div class="workimage">
-                <img src="ImgPlaceholder.png" alt="Project Image">
+                <img class="img" src="ImgPlaceholder.png" alt="Project Image">
             </div>
             <h2 class="workheading">Multi-Post Stories</h2>
             <p class="worktext">
@@ -115,13 +138,14 @@
                     <li class="languagestwo">Ruby</li>
                 </ul>
             </div>
-
-            <button type="button" class="projectButton">See project</button>
+            <div class="button-box">
+                <button type="button" class="projectButton">See project</button>
+            </div>
         </div>
 
-        <div class="secondpage">      
+        <div class="secondpageReverse">      
             <div class="workimage">
-                <img src="ImgPlaceholder.png" alt="Project Image">
+                <img class="img" src="ImgPlaceholder.png" alt="Project Image">
             </div>
             <h2 class="workheading">Multi-Post Stories</h2>
             <p class="worktext">
@@ -134,19 +158,21 @@
             </div>
             
             <div>
-                <ul class="languagesFlexContainer">
+                <ul class="languagesFlexContainerReverse">
                     <li class="languages">CSS</li>
                     <li class="languages">HTML</li>
                     <li class="languages">Bootstrap</li>
                     <li class="languagestwo">Ruby</li>
                 </ul>
             </div>
-            <button type="button" class="projectButton">See Project</button>
+            <div class="button-box">
+                <button type="button" class="projectButton">See project</button>
+            </div>
         </div>
 
         <div class="secondpage">       
             <div class="workimage">
-                <img src="ImgPlaceholder.png" alt="Project Image">
+                <img class="img" src="ImgPlaceholder.png" alt="Project Image">
             </div>
             <h2 class="workheading">Multi-Post Stories</h2>
             <p class="worktext">
@@ -166,12 +192,14 @@
                     <li class="languagestwo">Ruby</li>
                 </ul>
             </div>
-            <button type="button" class="projectButton">See Project</button>
+            <div class="button-box">
+                <button type="button" class="projectButton">See project</button>
+            </div>
         </div>
 
-        <div class="secondpage">     
+        <div class="secondpageReverse">     
             <div class="workimage">
-                <img src="ImgPlaceholder.png" alt="Project Image">
+                <img class="img" src="ImgPlaceholder.png" alt="Project Image">
             </div>
             <h2 class="workheading">Multi-Post Stories</h2>
             <p class="worktext">
@@ -184,59 +212,70 @@
             </div>
             
             <div>
-                <ul class="languagesFlexContainer">
+                <ul class="languagesFlexContainerReverse">
                     <li class="languages">CSS</li>
                     <li class="languages">HTML</li>
                     <li class="languages">Bootstrap</li>
                     <li class="languagestwo">Ruby</li>
                 </ul>
             </div>
-            <button type="button" class="projectButton">See Project</button>
+            <div class="button-box">
+                <button type="button" class="projectButton">See project</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-form">
+        <div class="footer-heading">
+            <h2 class="contact-heading">CONTACT US</h2>
+            <h2 class="contact-heading-desktop">Let's chat!</h2>
+            <p class="contact-details">
+                If you have an application you are
+                interested in developing, a feature that you
+                need built or a project that needs coding.
+                I’d love to help with it.
+            </p>
+        </div>
+        <form class="footer-input-form" action="https://formspree.io/f/mqkjaegz" method="post">
+            <ul class="footer-input">
+                <li>
+                    <input name="Fullname"  class="item1" type="text" maxlength="30" placeholder="Full name" required>
+                </li>
+                <li>
+                    <input name="Email" class="item2" type="email" placeholder="Email address" required>
+                </li>
+                <li>
+                    <textarea name="message" class="item3" required maxlength="500" placeholder="Enter text here"></textarea>
+                </li>
+                
+            </ul>
+            
+            <div class="footerButtonBox">
+                <button type="submit" class="footerButton">Send</button>
+            </div>
+            
+        </form>
+
+        <div class="horizontal-line-footer">
+
         </div>
 
-        <footer class="footer-form">
-            <div class="footer-heading">
-                <h2 class="contact-heading">CONTACT US</h2>
-                <p class="contact-details">
-                    If you have an application you are<br>
-                    interested in developing, a feature that you<br>
-                    need built or a project that needs coding.<br>
-                    I’d love to help with it.
-                </p>
-            </div>
-            <form action="https://formspree.io/f/mqkjaegz" method="post">
-                <ul class="footer-input">
-                    <li>
-                        <input name="Fullname"  class="item1" type="text" maxlength="30" placeholder="Full name" required>
-                    </li>
-                    <li>
-                        <input name="Email" class="item2" type="email" placeholder="Email address" required>
-                    </li>
-
-                    <li>
-                        <textarea name="message" class="item3" required maxlength="500" placeholder="Enter text here"></textarea>
-                    </li>
+        <div class="social-media-footer">
+            <ul class="social-icons">
+                <li class="social-media-icons"><a href="#"><img src="github.svg" alt="Github logo" class="Github-class"></a></li>
+                <li class="social-media-icons"><a href="#"><img src="Linkedin-icon.svg" alt="LinkedIn logo" class="linkedIn-class"></a></li>
+                <li class="social-media-icons"><a href="#"><img src="angellist.svg" alt="Angellist logo" class="Angellist-class"></a></li>
+                <li class="social-media-icons"><a href="#"><img src="twitter.svg" alt="Twitter logo" class="Twitter-class"></a></li>
+                <li class="social-media-icons"><a href="#"><img src="medium.svg" alt="Medium logo" class="Medium-class"></a></li>
                     
-                </ul>
-                <div class="footerButtonBox">
-                    <button type="submit" class="footerButton">See Project</button>
-                </div>
-            </form>
-                <div class="social-media">
-                    <ul class="social-icons">
-                        <li class="social-media-icons"><a href="#"><img src="github.svg" alt="Github logo" class="Github-class"></a></li>
-                        <li class="social-media-icons"><a href="#"><img src="Linkedin-icon.svg" alt="LinkedIn logo" class="linkedIn-class"></a></li>
-                        <li class="social-media-icons"><a href="#"><img src="angellist.svg" alt="Angellist logo" class="Angellist-class"></a></li>
-                        <li class="social-media-icons"><a href="#"><img src="twitter.svg" alt="Twitter logo" class="Twitter-class"></a></li>
-                        <li class="social-media-icons"><a href="#"><img src="medium.svg" alt="Medium logo" class="Medium-class"></a></li>
-                        
-                    </ul>
-                    <a href="#" class="footer-email">emailhere@email.com</a>
-                </div>
+            </ul>
+            <a href="#" class="footer-email">emailhere@email.com</a>
+        </div>
             
-        </footer>
+    </footer>
 
 
-    </section>
+    
 </body>
 </html>
