@@ -23,12 +23,12 @@
 
 @media only screen and (max-device-width: 600px) {
   
-  .navbar {
+  .navbox {
     display: flex;
     position: fixed;
     top: 0;
-    gap: 196.33px;
-    width: 100%;
+    justify-content: space-between;
+    width: 70%;
     align-items: center;
   }
 
@@ -438,6 +438,10 @@
     text-decoration: none;
     padding-bottom: 20px;
   }
+
+  .navdescription {
+    display: none;
+  }
 }
 
 
@@ -451,13 +455,37 @@
     flex-wrap: wrap;
   }
 
-  .navicon {
+  .navicon, .navname {
     display: none;
   }
 
   .navbar{
+    width: 80%;
     position: fixed;
-    top: 0;
+    top: 20px;
+  }
+
+  .navblock {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .nav-left {
+    float: left;
+  }
+
+  .nav-right {
+    padding-right: 33px;
+    float: right;
   }
 
   .titleName {
@@ -759,7 +787,7 @@
     width: 246.19px;
     height: 916.38px;
     left: 1090.3px;
-    top: 2800px;
+    top: 3000px;
     background: #EDECFF;
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
