@@ -671,5 +671,126 @@
     color: #edecff;
   }
 
+  .footer-form {
+    width: 100%;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-heading {
+    width: 45%;
+  }
+  .contact-heading {
+    text-align: center;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 24px;    
+    color: #9390FF;
+  }
+
+  .contact-details {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #EBEBFF;
+  }
+
+  .footer-input-form {
+    margin-top: 88px;
+    width: 45%;
+  }
+
+  .item1,
+  .item2 {
+    width: 97%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    height: 48px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 14px;
+  }
+
+  .item3 {
+    width: 97.5%;
+    height: 148px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .footerButtonBox {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footerButton {
+    margin-top: 20px;
+    padding: 12px;
+    gap: 10px;
+    background: #7d73fc;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #edecff;
+  }
+
+  .horizontal-line-footer {
+    margin-top: 100px;
+    height: 0;
+    width: 100%;
+    border: 1px solid #646369;
+    top: calc(50% - 0px / 2 + 0.5px);
+  }
+
+  .footer-email {
+    position: relative;
+    top: -6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    text-decoration: none;
+  }
+
+  .social-media-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 27.5%;
+  }
 
 }
