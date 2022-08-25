@@ -302,6 +302,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #edecff;
+    cursor: pointer;
+  }
+
+  .projectButton:hover {
+    background-color: #9390ff;
   }
 
   .rightsidebar {
@@ -422,6 +427,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #edecff;
+    cursor: pointer;
+  }
+
+  .footerButton:hover {
+    background-color: #9390ff;
   }
 
   .footer-email {
@@ -766,6 +776,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #edecff;
+    cursor: pointer;
+  }
+
+  .projectButton:hover {
+    background-color: #9390ff;
   }
 
   .thirdparagraph {
@@ -884,6 +899,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+    cursor: pointer;
+  }
+
+  .footerButton:hover {
+    background-color: #9390ff;
   }
 
   .horizontal-line-footer {
