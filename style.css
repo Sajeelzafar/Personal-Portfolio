@@ -818,7 +818,11 @@
     width: 45%;
   }
 
-  .contact-heading {
+  .contact-heading{
+    display: none;
+  }
+  
+  .contact-heading-desktop {
     text-align: center;
     height: 56px;
     font-family: 'Roboto', sans-serif;
