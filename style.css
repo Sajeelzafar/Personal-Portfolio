@@ -44,6 +44,7 @@
   }
 
   .name {
+    margin-top: 90px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -62,9 +63,7 @@
     line-height: 44px;
     align-items: center;
     text-align: center;
-    color: #edecff;
-    border: 2px solid red;
-  
+    color: #edecff;  
   }
   
   .introbox {
@@ -74,11 +73,9 @@
     flex-wrap: wrap;
     padding-left: 5%;
     padding-right: 5%;
-    border: 2px solid red;
   }
   
   .introparagraph {
-    border: 2px solid red;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -196,7 +193,8 @@
     justify-content: center;
   }
 
-  .secondpage {
+  .secondpage,
+  .secondpageReverse {
     display: flex;
     flex-wrap: wrap;
   }
@@ -230,6 +228,15 @@
   }
 
   .languagesFlexContainer {
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .languagesFlexContainerReverse {
     padding-left: 10px;
     display: flex;
     width: 100%;
@@ -353,6 +360,7 @@
   .contact-details {
     margin-top: 24px;
     margin-bottom: 40px;
+    width: 90%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -581,11 +589,23 @@
   .secondpage {
     display: grid;
     overflow: hidden;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 35%;
     grid-template-rows: auto auto auto auto;
     column-gap: 24px;
     row-gap: 24px;
   }
+
+  .secondpageReverse {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 60% 35%;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 24px;
+    row-gap: 24px;
+    column-gap: 24px;
+    direction: rtl;
+  }
+
 
   .workimage {
     grid-row-start: 1;
@@ -600,6 +620,7 @@
 
   .workheading {
     margin-top: 140px;
+    text-align: left;
     height: 105px;
     font-family: 'Roboto';
     font-style: normal;
@@ -611,6 +632,7 @@
 
   .worktext {
     min-height: 100%;
+    text-align: left;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -625,6 +647,15 @@
     gap: 25px;
     flex-wrap: wrap;
     align-content: center;
+  }
+
+  .languagesFlexContainerReverse {
+    padding-left: 10px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row-reverse;
   }
 
   .languages {
@@ -648,14 +679,15 @@
     color: #fff;
   }
 
-  .projectButton {
-    margin-top: 24px;
+  .button-box{
     display: flex;
     justify-content: left;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
     gap: 10px;
+    align-items: center;
+  }
+
+  .projectButton {
+    padding: 12px;
     background: #7d73fc;
     max-width: 110px;
     flex: none;
@@ -684,6 +716,7 @@
   .footer-heading {
     width: 45%;
   }
+
   .contact-heading {
     text-align: center;
     height: 56px;
@@ -758,11 +791,11 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #edecff;
+    color: #fff;
   }
 
   .horizontal-line-footer {
