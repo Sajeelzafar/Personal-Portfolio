@@ -361,6 +361,10 @@
     color: #9390ff;
   }
 
+  .contact-heading-desktop {
+    display: none;
+  }
+
   .contact-details {
     margin-top: 24px;
     margin-bottom: 40px;
@@ -778,10 +782,13 @@
     letter-spacing: 0.03em;
     color: #edecff;
     cursor: pointer;
+    transition-property: background-color, transform;
+    transition-duration: 2s, 2s, 2s, 2s;
   }
 
   .projectButton:hover {
     background-color: #9390ff;
+    transform: scale(1.75);
   }
 
   .thirdparagraph {
