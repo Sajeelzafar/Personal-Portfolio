@@ -361,6 +361,10 @@
     color: #9390ff;
   }
 
+  .contact-heading-desktop {
+    display: none;
+  }
+
   .contact-details {
     margin-top: 24px;
     margin-bottom: 40px;
@@ -778,10 +782,13 @@
     letter-spacing: 0.03em;
     color: #edecff;
     cursor: pointer;
+    transition-property: background-color, transform;
+    transition-duration: 2s, 2s, 2s, 2s;
   }
 
   .projectButton:hover {
     background-color: #9390ff;
+    transform: scale(1.75);
   }
 
   .thirdparagraph {
@@ -907,8 +914,28 @@
     cursor: pointer;
   }
 
+  @keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
   .footerButton:hover {
-    background-color: #9390ff;
+    animation: bounce 1s;
   }
 
   .horizontal-line-footer {
