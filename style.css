@@ -361,6 +361,10 @@
     color: #9390ff;
   }
 
+  .contact-heading-desktop {
+    display: none;
+  }
+
   .contact-details {
     margin-top: 24px;
     margin-bottom: 40px;
@@ -449,10 +453,6 @@
   }
 
   .navdescription {
-    display: none;
-  }
-
-  .contact-heading-desktop {
     display: none;
   }
 }
