@@ -451,6 +451,10 @@
   .navdescription {
     display: none;
   }
+
+  .contact-heading-desktop {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 768px) {
