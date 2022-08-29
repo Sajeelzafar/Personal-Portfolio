@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Personal Portfolio
 
-The goal of the project is to output "Hello Microverse!" aligned center. The text of the document is written in white with a black background. 
+The project represents the personal portfolio of the author.  The website is compatible with both the mobile and desktop versions.
 
 
 ## Built With
