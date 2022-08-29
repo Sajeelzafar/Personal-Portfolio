@@ -30,8 +30,8 @@ To run this project one must have Visual Studio (VS) Code installed and running.
 ### Usage
 
 Clone and access the repository using the following commands on Git Bash:
-- git clone git@github.com:Sajeelzafar/Hello-Microverse.git
-- cd Hello-Microverse
+- git clone git@github.com:Sajeelzafar/Personal-Portfolio.git
+- cd Personal-Portfolio
 
 Open the directory in visual studio code by typing the following command in Git Bash:
 - code .
@@ -59,6 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- Elias Castañeda - Lead TLA
 - Inspiration
 - etc
 
