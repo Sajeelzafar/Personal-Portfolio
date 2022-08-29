@@ -1,56 +1,50 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal Portfolio
 
-> Description the project.
+The project represents the personal portfolio of the author.  The website is compatible with both the mobile and desktop versions.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Git Bash
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://sajeelzafar.github.io/Personal-Portfolio/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+To understand the project you must have a basic knowledge about HTML and CSS.
 
 ### Install
 
+To run this project one must have Visual Studio (VS) Code installed and running.
+
 ### Usage
 
-### Run tests
+Clone and access the repository using the following commands on Git Bash:
+- git clone git@github.com:Sajeelzafar/Personal-Portfolio.git
+- cd Personal-Portfolio
 
-### Deployment
+Open the directory in visual studio code by typing the following command in Git Bash:
+- code .
 
-
+Then using the live server of VS Code you can view the page.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub:  [@Sajeelzafar](https://github.com/Sajeelzafar)
+- Twitter: [@SajeelZafar6](https://twitter.com/SajeelZafar6)
+- LinkedIn: [Sajeel Zafar](https://www.linkedin.com/in/sajeelzafar/)
 
 ## 🤝 Contributing
 
@@ -65,6 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- Elias Castañeda - Lead TLA
 - Inspiration
 - etc
 
