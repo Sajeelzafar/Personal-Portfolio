@@ -485,9 +485,10 @@ h3 {
     padding-top: 110px;
     display: flex;
     flex-direction: column-reverse;
-    width: 98%;
+    width: 100%;
     text-align: left;
     justify-content: flex-end;
+    align-items: center;
     margin: 0;
     gap: 0;
     background-image: url(shapes_mobile_menu.svg);
@@ -526,12 +527,13 @@ h3 {
     background-color: transparent;
     opacity: 1;
     text-decoration: none;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    display: flex;
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
   }
 
   .work-icon-one {
