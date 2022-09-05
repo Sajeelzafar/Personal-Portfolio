@@ -453,6 +453,42 @@ h3 {
 @media only screen and (max-device-width: 768px) {
   .navicon {
     cursor: pointer;
+      display: block;
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+  
+    .navicon.active {
+      display: block;
+      margin: 0;
+      position: relative;
+    }
+    
+    .navicon .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 3px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #28352f;
+      border: 1px solid #acb7c3;
+    }
+    
+    .navicon.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .navicon.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+      background-color: #ACB7C3;
+    }
+    
+    .navicon.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+      background-color: #ACB7C3;
+    }
+    
   }
 
   .navblock {
