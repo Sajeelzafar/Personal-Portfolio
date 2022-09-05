@@ -534,12 +534,11 @@ h3 {
 
   .navblock.active li::after {
     content: '>';
-    width: 8px;
-    height: 14px;
+    font-size: 25px;
     color: #7d73fc;
     position: absolute;
     left: 80%;
-    margin-top: -31px;
+    margin-top: -30px;
   }
 
   .navblock.active li:nth-child(2)::after {
@@ -555,10 +554,12 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-weight: bold;
     font-size: 24px;
     line-height: 32px;
     display: flex;
     align-items: center;
+    padding-top: 10px;
   }
 
   .work-icon-one {
