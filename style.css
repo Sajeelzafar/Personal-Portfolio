@@ -462,7 +462,6 @@ h3 {
     position: fixed;
     left: -120%;
     top: 70px;
-    background-color: #6070ff;
     transition: 0.3s;
     width: 100%;
   }
@@ -472,8 +471,6 @@ h3 {
     top: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    color: #000;
     width: 100%;
     text-align: left;
     height: 100%;
@@ -481,6 +478,33 @@ h3 {
     margin: 0;
     gap: 0;
   }
+
+  .nav-right.active{
+    margin-top: 10vw;
+    margin-left: 10vw;
+    padding-bottom: 0;
+    padding-top: 0;
+    list-style: none;
+  }
+  .navblock.active .nav-left{
+    display: none;
+  }
+
+  .navblock.active .nav-right a img{
+    display: none;
+  }
+
+ 
+  .navblock .nav-right a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+  }
+
   .work-icon-one {
     display: none;
   }
