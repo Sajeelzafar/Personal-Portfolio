@@ -6,9 +6,11 @@ const validateEmail = (email) => {
   return false;
 };
 
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', (event) => {
   const emailVal = document.getElementById('mail').value;
+  
   if (!validateEmail(emailVal)) {
-    document.querySelector('.txtt').innerHTML = ' please enter correct email in lower case eg abcde@fgh.com';
+    alert("Invalid format");
+    event.preventDefault();
   }
 });
