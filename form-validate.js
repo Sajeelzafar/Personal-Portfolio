@@ -9,18 +9,18 @@ const validateEmail = (email) => {
 
 submitBtn.addEventListener('click', (event) => {
   const emailVal = document.getElementById('mail').value;
-  
+
   if (!validateEmail(emailVal)) {
-    let label=document.querySelector('.error').innerHTML="Email should be written in small case";
+    document.querySelector('.error').innerHTML = 'Email should be written in small case';
     event.preventDefault();
   }
 });
 
 submitBtn2.addEventListener('click', (event) => {
   const emailVal = document.getElementById('mail').value;
-  
+
   if (!validateEmail(emailVal)) {
-    let label=document.querySelector('.error').innerHTML="Email should be written in small case";
+    document.querySelector('.error').innerHTML = 'Email should be written in small case';
     event.preventDefault();
   }
 });
