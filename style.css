@@ -478,10 +478,25 @@ h3 {
 #popup-firstproject {
   display: flex;
   flex-direction: column;
+  
   justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: 30px;
   background-color: #191765;
+}
+
+#popup-closebutton {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  position: relative;
+  bottom: -20px;
+  right: 10px;
+/* box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48); */
 }
 
 #popup-heading {
