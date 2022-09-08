@@ -1,4 +1,4 @@
-const projects = document.querySelectorAll('.projectButton');
+const projects = document.querySelectorAll('.button-box');
 const project1 = document.getElementById('firstproject');
 
 let projectdetails = [{name: "Multi - Post stories",
@@ -10,7 +10,8 @@ livesorce: "https://github.com/Sajeelzafar/Personal-Portfolio"
 }]
 
 projects.forEach((n) =>
-    n.addEventListener('click', () => {
+    n.addEventListener('click', (e) => {
+        console.log(e);
         let div = document.createElement('div');
         div.id = 'popup-firstproject';
         project1.appendChild(div);
