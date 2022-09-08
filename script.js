@@ -11,4 +11,3 @@ document.querySelectorAll('.navblock > li').forEach((n) => (
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   })));
-

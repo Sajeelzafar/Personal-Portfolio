@@ -464,6 +464,7 @@ h3 {
 .error.active {
   padding: 0.3em;
 }
+
 #firstproject {
   display: none;
   position: fixed;
@@ -473,7 +474,6 @@ h3 {
   height: 100%;
   overflow: auto;
   background-color: #191765;
-
 }
 
 #popup-firstproject {
@@ -498,25 +498,27 @@ h3 {
   position: relative;
   bottom: -20px;
   right: 10px;
-/* box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48); */
+
+  /* box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48); */
 }
 
 #popup-heading {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   width: 100%;
-font-style: normal;
-justify-content: left;
-font-weight: 500;
-font-weight: bold;
-font-size: 20px;
-line-height: 28px;
-padding-bottom: 25px;
-/* or 140% */
-display: flex;
-align-items: center;
+  font-style: normal;
+  justify-content: left;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 25px;
 
-/* Theme 4 / Neutral 11 */
-color: #fff;
+  /* or 140% */
+  display: flex;
+  align-items: center;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
 }
 
 #popup-image {
@@ -524,21 +526,22 @@ color: #fff;
 }
 
 #popup-paragraph {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-padding-top: 25px;
-padding-bottom: 35px;
-/* or 150% */
-text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 25px;
+  padding-bottom: 35px;
 
-/* Theme 4 / Neutral 11 */
-color: #fff;
+  /* or 150% */
+  text-align: center;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
 }
 
-#popup-list{
+#popup-list {
   display: flex;
 }
 
@@ -554,33 +557,35 @@ color: #fff;
 #popup-livebuttonbox,
 #popup-sourcebuttonbox {
   display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px;
-gap: 12px;
-margin: 15px;
-/* Theme 4 / Primary 2 */
-background: #7D73FC;
-box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  margin: 15px;
+
+  /* Theme 4 / Primary 2 */
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 #popup-livebutton,
 #popup-sourcebutton {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 24px;
-border: 2px solid #7D73FC;
-background: #7D73FC;
-/* identical to box height, or 200% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  border: 2px solid #7d73fc;
+  background: #7d73fc;
 
-/* Theme 4 / Neutral 11 */
-color: #fff;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
 }
 
 @media only screen and (max-device-width: 768px) {
@@ -1108,7 +1113,7 @@ color: #fff;
   #popup-image {
     width: 100%;
   }
-  
+
   #popup-paragraph {
     line-height: 30px;
     width: 60%;
