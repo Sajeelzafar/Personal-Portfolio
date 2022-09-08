@@ -1,5 +1,6 @@
 const projects = document.querySelectorAll('.button-box');
 const project1 = document.getElementById('firstproject');
+//const modal = document.querySelector('firstproject');
 
 let projectdetails = [{name: "Multi - Post stories",
 description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.", 
@@ -12,6 +13,7 @@ livesorce: "https://github.com/Sajeelzafar/Personal-Portfolio"
 projects.forEach((n) =>
     n.addEventListener('click', (e) => {
         console.log(e);
+        project1.style.display = "block";
         let div = document.createElement('div');
         div.id = 'popup-firstproject';
         project1.appendChild(div);
