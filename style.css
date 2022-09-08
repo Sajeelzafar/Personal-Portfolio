@@ -465,6 +465,129 @@ h3 {
   padding: 0.3em;
 }
 
+#firstproject {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #191765;
+}
+
+#popup-firstproject {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  margin-top: 50px;
+}
+
+#popup-closebutton {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  position: relative;
+  bottom: -20px;
+  right: 10px;
+
+  /* box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48); */
+}
+
+#popup-heading {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  font-style: normal;
+  justify-content: left;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 25px;
+
+  /* or 140% */
+  display: flex;
+  align-items: center;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
+}
+
+#popup-image {
+  max-width: 100%;
+}
+
+#popup-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+
+  /* or 150% */
+  text-align: center;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
+}
+
+#popup-list {
+  display: flex;
+}
+
+#popup-listitem {
+  border-left: 2px solid #81818c;
+  padding: 5px 14px;
+}
+
+#popup-listitem:last-child {
+  border-right: 2px solid #81818c;
+}
+
+#popup-livebuttonbox,
+#popup-sourcebuttonbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  margin: 15px;
+
+  /* Theme 4 / Primary 2 */
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+#popup-livebutton,
+#popup-sourcebutton {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  border: 2px solid #7d73fc;
+  background: #7d73fc;
+
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Theme 4 / Neutral 11 */
+  color: #fff;
+}
+
 @media only screen and (max-device-width: 768px) {
   .navicon {
     cursor: pointer;
@@ -973,5 +1096,35 @@ h3 {
     margin-top: 20px;
     justify-content: space-between;
     width: 27.5%;
+  }
+
+  #popup-heading {
+    font-size: 40px;
+    line-height: 32px;
+    padding-bottom: 45px;
+  }
+
+  #popup-firstproject {
+    margin: 112px auto;
+    width: 80%;
+    padding: 24px;
+  }
+
+  #popup-image {
+    width: 100%;
+  }
+
+  #popup-paragraph {
+    line-height: 30px;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  #popup-buttonboxcontainer {
+    display: flex;
+    gap: 80px;
+    padding-bottom: 80px;
+    padding-top: 40px;
   }
 }

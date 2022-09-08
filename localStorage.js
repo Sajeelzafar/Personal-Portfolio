@@ -1,20 +1,17 @@
-const form = document.querySelector('.formSection');
+const form = document.querySelector('.footer-input-form');
 
-const {name, email, msg } = form.elements;
+const { Fullname, Email, message } = form.elements;
+
 if (!localStorage.getItem('formObjectData')) {
   const formData = { fnameData: '', emailData: '', messageData: '' };
   localStorage.setItem('formObjectData', JSON.stringify(formData));
-}
-else {
-
+} else {
   const formData = JSON.parse(localStorage.getItem('formObjectData'));
 
-  text.value = formData['fnameData'];
+  Fullname.value = formData.fnameData;
+  Email.value = formData.emailData;
 
-  email.value = formData['emailData'];
-
-  msg.value = formData['messageData'];
-
+  message.value = formData.messageData;
 }
 const reservedata = (element, val) => {
   element.addEventListener('change', () => {
@@ -24,6 +21,8 @@ const reservedata = (element, val) => {
     localStorage.setItem('formObjectData', JSON.stringify(formData));
   });
 };
-reservedata(text, 'fnameData');
-reservedata(email, 'emailData');
-reservedata(msg, 'messageData');
+
+reservedata(Fullname, 'fnameData');
+reservedata(Email, 'emailData');
+reservedata(message, 'messageData');
+
