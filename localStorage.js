@@ -9,7 +9,6 @@ if (!localStorage.getItem('formObjectData')) {
   const formData = JSON.parse(localStorage.getItem('formObjectData'));
 
   Fullname.value = formData.fnameData;
-
   Email.value = formData.emailData;
 
   message.value = formData.messageData;
@@ -26,3 +25,4 @@ const reservedata = (element, val) => {
 reservedata(Fullname, 'fnameData');
 reservedata(Email, 'emailData');
 reservedata(message, 'messageData');
+
