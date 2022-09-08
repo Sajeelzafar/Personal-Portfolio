@@ -498,8 +498,7 @@ h3 {
   position: relative;
   bottom: -20px;
   right: 10px;
-
-  /* box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48); */
+  cursor: pointer;
 }
 
 #popup-heading {
