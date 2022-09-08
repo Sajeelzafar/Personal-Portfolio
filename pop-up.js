@@ -12,6 +12,7 @@ livesorce: "https://github.com/Sajeelzafar/Personal-Portfolio"
 
 projects.forEach((n) =>
     n.addEventListener('click', (e) => {
+        console.log(e);
         project1.style.display = "block";
         let div = document.createElement('div');
         div.id = 'popup-firstproject';
@@ -46,9 +47,13 @@ projects.forEach((n) =>
             unordered_list.appendChild(listitem)
         }
 
+        let buttonboxcontainer = document.createElement('div');
+        buttonboxcontainer.id = 'popup-buttonboxcontainer';
+        div.appendChild(buttonboxcontainer);
+
         let livebuttonbox = document.createElement('div');
         livebuttonbox.id = 'popup-livebuttonbox';
-        div.appendChild(livebuttonbox);
+        buttonboxcontainer.appendChild(livebuttonbox);
 
         let livebutton = document.createElement('button');
         livebutton.id = 'popup-livebutton';
@@ -59,9 +64,13 @@ projects.forEach((n) =>
         livebuttonimage.id = 'popup-livebuttonimage';
         livebuttonbox.appendChild(livebuttonimage);
 
+        livebuttonbox.addEventListener('click', () => {
+            window.open(projectdetails[0].liveversion, '_blank');
+        });
+
         let sourcebuttonbox = document.createElement('div');
         sourcebuttonbox.id = 'popup-sourcebuttonbox';
-        div.appendChild(sourcebuttonbox);
+        buttonboxcontainer.appendChild(sourcebuttonbox);
 
         let sourcebutton = document.createElement('button');
         sourcebutton.id = 'popup-sourcebutton';
@@ -78,6 +87,4 @@ projects.forEach((n) =>
         });
 
 }));
-
-
 
