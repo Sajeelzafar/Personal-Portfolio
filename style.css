@@ -465,6 +465,96 @@ h3 {
   padding: 0.3em;
 }
 
+#popup-firstproject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: #191765;
+}
+
+#popup-heading {
+  font-family: 'Roboto';
+  width: 100%;
+font-style: normal;
+justify-content: left;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+padding-bottom: 25px;
+/* or 140% */
+display: flex;
+align-items: center;
+
+/* Theme 4 / Neutral 11 */
+color: #fff;
+}
+
+#popup-image {
+  max-width: 100%;
+}
+
+#popup-paragraph {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-top: 25px;
+padding-bottom: 35px;
+/* or 150% */
+text-align: center;
+
+/* Theme 4 / Neutral 11 */
+color: #fff;
+}
+
+#popup-list{
+  display: flex;
+}
+
+#popup-listitem {
+  border-left: 2px solid #81818c;
+  padding: 5px 14px;
+}
+
+#popup-listitem:last-child {
+  border-right: 2px solid #81818c;
+}
+
+#popup-livebuttonbox,
+#popup-sourcebuttonbox {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 12px;
+margin: 15px;
+/* Theme 4 / Primary 2 */
+background: #7D73FC;
+box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+#popup-livebutton,
+#popup-sourcebutton {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+border: 2px solid #7D73FC;
+background: #7D73FC;
+/* identical to box height, or 200% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Theme 4 / Neutral 11 */
+color: #fff;
+}
+
 @media only screen and (max-device-width: 768px) {
   .navicon {
     cursor: pointer;
