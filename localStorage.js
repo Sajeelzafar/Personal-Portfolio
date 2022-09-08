@@ -9,7 +9,7 @@ else {
 
   const formData = JSON.parse(localStorage.getItem('formObjectData'));
 
-  name.value = formData['fnameData'];
+  text.value = formData['fnameData'];
 
   email.value = formData['emailData'];
 
@@ -24,6 +24,6 @@ const reservedata = (element, val) => {
     localStorage.setItem('formObjectData', JSON.stringify(formData));
   });
 };
-reservedata(name, 'fnameData');
+reservedata(text, 'fnameData');
 reservedata(email, 'emailData');
 reservedata(msg, 'messageData');
