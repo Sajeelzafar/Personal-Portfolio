@@ -7,7 +7,7 @@ const projectdetails = [{
   image: 'Pop-upImage1.png',
   technology: ['HTML', 'Ruby on Rails', 'CSS'],
   liveversion: 'https://sajeelzafar.github.io/Personal-Portfolio/',
-  livesorce: 'https://github.com/Sajeelzafar/Personal-Portfolio',
+  livesource: 'https://github.com/Sajeelzafar/Personal-Portfolio',
 }];
 
 projects.forEach((n) => n.addEventListener('click', () => {
@@ -78,6 +78,10 @@ projects.forEach((n) => n.addEventListener('click', () => {
   sourcebuttonimage.src = 'Source_Icon.svg';
   sourcebuttonimage.id = 'popup-sourcebuttonimage';
   sourcebuttonbox.appendChild(sourcebuttonimage);
+
+  sourcebuttonbox.addEventListener('click', () => {
+    window.open(projectdetails[0].livesource, '_blank');
+  });
 
   closebutton.addEventListener('click', () => {
     project1.removeChild(div);
