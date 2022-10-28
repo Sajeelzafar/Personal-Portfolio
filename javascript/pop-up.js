@@ -4,7 +4,7 @@ const project1 = document.getElementById('firstproject');
 const projectdetails = [{
   name: 'Multi - Post stories',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-  image: 'Pop-upImage1.png',
+  image: './BigImages/Pop-upImage1.png',
   technology: ['HTML', 'Ruby on Rails', 'CSS'],
   liveversion: 'https://sajeelzafar.github.io/Personal-Portfolio/',
   livesource: 'https://github.com/Sajeelzafar/Personal-Portfolio',
@@ -58,7 +58,7 @@ projects.forEach((n) => n.addEventListener('click', () => {
   livebutton.textContent = 'See Live';
   livebuttonbox.appendChild(livebutton);
   const livebuttonimage = document.createElement('img');
-  livebuttonimage.src = 'Live_Icon.svg';
+  livebuttonimage.src = './InteractiveButtons/Live_Icon.svg';
   livebuttonimage.id = 'popup-livebuttonimage';
   livebuttonbox.appendChild(livebuttonimage);
 
@@ -75,7 +75,7 @@ projects.forEach((n) => n.addEventListener('click', () => {
   sourcebutton.textContent = 'See Source';
   sourcebuttonbox.appendChild(sourcebutton);
   const sourcebuttonimage = document.createElement('img');
-  sourcebuttonimage.src = 'Source_Icon.svg';
+  sourcebuttonimage.src = './InteractiveButtons/Source_Icon.svg';
   sourcebuttonimage.id = 'popup-sourcebuttonimage';
   sourcebuttonbox.appendChild(sourcebuttonimage);
 
