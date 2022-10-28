@@ -63,7 +63,7 @@ projects.forEach((n) => n.addEventListener('click', () => {
   livebuttonbox.appendChild(livebuttonimage);
 
   livebuttonbox.addEventListener('click', () => {
-    window.open(projectdetails[0].liveversion);
+    window.open(projectdetails[0].liveversion, '_blank');
   });
 
   const sourcebuttonbox = document.createElement('div');
@@ -80,7 +80,7 @@ projects.forEach((n) => n.addEventListener('click', () => {
   sourcebuttonbox.appendChild(sourcebuttonimage);
 
   sourcebuttonbox.addEventListener('click', () => {
-    window.open(projectdetails[0].livesource);
+    window.open(projectdetails[0].livesource, '_blank');
   });
 
   closebutton.addEventListener('click', () => {
