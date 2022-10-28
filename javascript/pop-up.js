@@ -1,10 +1,9 @@
 const projects = document.querySelectorAll('.button-box');
 const project1 = document.getElementById('firstproject');
 
-
 const projectdetails = [{
   name: 'Awesome Books Website',
-  description: "The project models the local library. The books can be added and removed from the library. The books are added into the local storage of browser. The contact page is also designed to reach out to us for any query. The website works best for the desktop version.",
+  description: 'The project models the local library. The books can be added and removed from the library. The books are added into the local storage of browser. The contact page is also designed to reach out to us for any query. The website works best for the desktop version.',
   image: './Projects/AwesomeBooks.png',
   technology: ['HTML', 'CSS', 'JavaScript', 'Webpack', 'Babel'],
   liveversion: 'https://sajeelzafar.github.io/Book_Website/',
@@ -36,8 +35,7 @@ const projectdetails = [{
 }];
 
 projects.forEach((n) => n.addEventListener('click', (e) => {
-  let popupcontent = parseInt(e.target.id, 10);
-  console.log(typeof popupcontent, popupcontent);
+  const popupcontent = parseInt(e.target.id, 10);
   project1.style.display = 'block';
   const div = document.createElement('div');
   div.id = 'popup-firstproject';
@@ -50,7 +48,6 @@ projects.forEach((n) => n.addEventListener('click', (e) => {
 
   const heading = document.createElement('h1');
   heading.id = 'popup-heading';
-  console.log("projectdetails[popupcontent].name is ", projectdetails[popupcontent].name)
   heading.textContent = (projectdetails[popupcontent].name);
   div.appendChild(heading);
   const image = document.createElement('img');

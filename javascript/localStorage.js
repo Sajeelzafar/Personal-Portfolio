@@ -25,4 +25,3 @@ const reservedata = (element, val) => {
 reservedata(Fullname, 'fnameData');
 reservedata(Email, 'emailData');
 reservedata(message, 'messageData');
-

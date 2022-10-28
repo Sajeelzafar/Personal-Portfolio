@@ -562,6 +562,7 @@ h3 {
   gap: 12px;
   margin: 15px;
   cursor: pointer;
+
   /* Theme 4 / Primary 2 */
   background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
@@ -577,6 +578,7 @@ h3 {
   border: 2px solid #7d73fc;
   background: #7d73fc;
   cursor: pointer;
+
   /* identical to box height, or 200% */
   display: flex;
   align-items: center;
