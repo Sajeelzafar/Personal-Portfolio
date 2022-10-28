@@ -561,6 +561,8 @@ h3 {
   padding: 12px;
   gap: 12px;
   margin: 15px;
+  cursor: pointer;
+
   /* Theme 4 / Primary 2 */
   background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
@@ -576,6 +578,7 @@ h3 {
   border: 2px solid #7d73fc;
   background: #7d73fc;
   cursor: pointer;
+
   /* identical to box height, or 200% */
   display: flex;
   align-items: center;
@@ -628,7 +631,7 @@ h3 {
     justify-content: flex-end;
     margin: 0;
     gap: 0;
-    background-image: url(shapes_mobile_menu.svg);
+    background-image: url(./BigImages/shapes_mobile_menu.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -658,7 +661,7 @@ h3 {
     /* width: 100%; */
 
     /* height: 100%; */
-    content: url("cross_icon.svg");
+    content: url("./InteractiveButtons/cross_icon.svg");
     top: 60px;
     left: 80%;
   }
