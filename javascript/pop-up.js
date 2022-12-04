@@ -2,6 +2,22 @@ const projects = document.querySelectorAll('.button-box');
 const project1 = document.getElementById('firstproject');
 
 const projectdetails = [{
+  name: 'Air Quality',
+  description: 'The website displays a list of countries that are fetched from rest world API. Once the country is selected, the respective cities are loaded. On selecting the city, its respective air data is displayed on a table over a short period of time.',
+  image: './Projects/Air_Quality.bmp',
+  technology: ['React', 'Redux', 'Jest', 'Bootstrap', 'CSS', 'JSX', 'Babel'],
+  liveversion: 'https://airqualitysajeel.netlify.app/city',
+  livesource: 'https://github.com/Sajeelzafar/Air-Quality',
+},
+{
+  name: 'Space-X',
+  description: 'The website models a space website that fetches data from real live data from spaceX and displays it on the UI. Missions and Reserve Rockets can be joined and reserved respectively, and are displayed in My profile page.',
+  image: './Projects/Space-X.jpg',
+  technology: ['React', 'Redux', 'Bootstrap', 'CSS', 'JSX', 'Babel'],
+  liveversion: 'https://space-x1234.netlify.app/',
+  livesource: 'https://github.com/Sajeelzafar/space-x',
+},
+{
   name: 'Awesome Books Website',
   description: 'The project models the local library. The books can be added and removed from the library. The books are added into the local storage of browser. The contact page is also designed to reach out to us for any query. The website works best for the desktop version.',
   image: './Projects/AwesomeBooks.png',
@@ -10,28 +26,12 @@ const projectdetails = [{
   livesource: 'https://github.com/Sajeelzafar/Book_Website',
 },
 {
-  name: 'Multi - Post stories',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-  image: './BigImages/Pop-upImage1.png',
-  technology: ['HTML', 'Ruby on Rails', 'CSS'],
-  liveversion: 'https://sajeelzafar.github.io/Personal-Portfolio/',
-  livesource: 'https://github.com/Sajeelzafar/Personal-Portfolio',
-},
-{
-  name: 'Multi - Post stories',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-  image: './BigImages/Pop-upImage1.png',
-  technology: ['HTML', 'Ruby on Rails', 'CSS'],
-  liveversion: 'https://sajeelzafar.github.io/Personal-Portfolio/',
-  livesource: 'https://github.com/Sajeelzafar/Personal-Portfolio',
-},
-{
-  name: 'Multi - Post stories',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-  image: './BigImages/Pop-upImage1.png',
-  technology: ['HTML', 'Ruby on Rails', 'CSS'],
-  liveversion: 'https://sajeelzafar.github.io/Personal-Portfolio/',
-  livesource: 'https://github.com/Sajeelzafar/Personal-Portfolio',
+  name: 'JavaScript Capstone Project',
+  description: 'In this project, a website is build that loads information from a TVmaze API and updates its likes and comments in an Involvement API, established by Microverse.',
+  image: './Projects/JavaScript_Capstone.JPG',
+  technology: ['Webpack', 'HTML', 'CSS', 'JavaScript', 'Jest'],
+  liveversion: 'https://sajeelzafar.github.io/JavaScript-Capstone/dist/index.html',
+  livesource: 'https://github.com/Sajeelzafar/JavaScript-Capstone',
 }];
 
 projects.forEach((n) => n.addEventListener('click', (e) => {
