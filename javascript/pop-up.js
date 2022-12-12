@@ -6,7 +6,7 @@ const projectdetails = [{
   description: 'The website displays a list of countries that are fetched from rest world API. Once the country is selected, the respective cities are loaded. On selecting the city, its respective air data is displayed on a table over a short period of time.',
   image: './Projects/Air_Quality.bmp',
   technology: ['React', 'Redux', 'Jest', 'Bootstrap', 'CSS', 'JSX', 'Babel'],
-  liveversion: 'https://airqualitysajeel.netlify.app/city',
+  liveversion: 'https://airqualitysajeel.netlify.app/',
   livesource: 'https://github.com/Sajeelzafar/Air-Quality',
 },
 {
