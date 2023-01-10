@@ -12,7 +12,7 @@ const projectdetails = [{
 {
   name: 'Space-X',
   description: 'The website models a space website that fetches data from real live data from spaceX and displays it on the UI. Missions and Reserve Rockets can be joined and reserved respectively, and are displayed in My profile page.',
-  image: './Projects/Space-X.jpg',
+  image: './Projects/Space-X.JPG',
   technology: ['React', 'Redux', 'Bootstrap', 'CSS', 'JSX', 'Babel'],
   liveversion: 'https://space-x1234.netlify.app/',
   livesource: 'https://github.com/Sajeelzafar/space-x',
